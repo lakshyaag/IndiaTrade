@@ -208,7 +208,7 @@ import_country_commodity <- function(u_country, u_HSC) {
         labs(
             y = 'Value  (in million US$)',
             x = 'Year',
-            title = paste0('<b>Imports</b> to <b>', u_country, '</b>')
+            title = paste0('<b>Imports</b> from <b>', u_country, '</b>')
         )
     
     p <-
